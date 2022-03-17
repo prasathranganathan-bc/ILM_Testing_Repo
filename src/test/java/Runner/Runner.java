@@ -8,7 +8,7 @@ import io.cucumber.testng.CucumberOptions;
 		features = "src/test/resources/Features/",
 		glue = { "stepDef", "Hooks" },
 		plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:" },
-		tags= "@Dos",  //"@Dos or @GCloud",
+		tags= "@Dos or @GCloud",
 		monochrome = true,
 //		dryRun = true,
 		strict = true	
