@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="5.327">
+<testcase classname="First feature to test login functionality" name="To check login is successful with valid credentials" time="2.766">
+<failure message="Cannot invoke &quot;org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)&quot; because &quot;ts&quot; is null" type="java.lang.NullPointerException"><![CDATA[Given user has logged.......................................................passed
+When user enters User1......................................................skipped
+And clicks the login button.................................................skipped
+Then user is launched to the home page......................................skipped
+
+StackTrace:
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+	at stepDefinitions.ScreenShotStepDefinition.afterSite(ScreenShotStepDefinition.java:34)
+]]></failure>
+</testcase>
+<testcase classname="First feature to test login functionality" name="To check login is successful with valid credentials 2" time="2.417">
+<failure message="Cannot invoke &quot;org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)&quot; because &quot;ts&quot; is null" type="java.lang.NullPointerException"><![CDATA[Given user has logged.......................................................passed
+When user enters User2......................................................skipped
+And clicks the login button.................................................skipped
+Then user is launched to the home page......................................skipped
+
+StackTrace:
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+	at stepDefinitions.ScreenShotStepDefinition.afterSite(ScreenShotStepDefinition.java:34)
+]]></failure>
+</testcase>
+</testsuite>

@@ -1,0 +1,246 @@
+[
+  {
+    "line": 5,
+    "elements": [
+      {
+        "start_timestamp": "2022-02-28T17:52:34.195Z",
+        "line": 16,
+        "name": "To check login is successful with valid credentials",
+        "description": "",
+        "id": "first-feature-to-test-login-functionality;to-check-login-is-successful-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2752074300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user has logged",
+            "match": {
+              "location": "stepDefinitions.ALoginSteps2.user_is_on_login_page_1()"
+            },
+            "after": [
+              {
+                "result": {
+                  "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)\" because \"ts\" is null\r\n\tat stepDefinitions.ScreenShotStepDefinition.afterSite(ScreenShotStepDefinition.java:34)\r\n",
+                  "duration": 3986700,
+                  "status": "failed"
+                },
+                "match": {
+                  "location": "stepDefinitions.ScreenShotStepDefinition.afterSite(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user enters User1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "User1",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.ALoginSteps2.user_enters_User1(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.ScreenShotStepDefinition.afterSite(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "clicks the login button",
+            "match": {
+              "location": "stepDefinitions.ALoginSteps2.clicks_on_login_button_1()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1015500,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.ScreenShotStepDefinition.afterSite(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user is launched to the home page",
+            "match": {
+              "location": "stepDefinitions.ALoginSteps2.user_is_navigated_to_the_home_page_1()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.ScreenShotStepDefinition.afterSite(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AAA"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-28T17:52:36.975Z",
+        "line": 17,
+        "name": "To check login is successful with valid credentials",
+        "description": "",
+        "id": "first-feature-to-test-login-functionality;to-check-login-is-successful-with-valid-credentials;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2415881100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user has logged",
+            "match": {
+              "location": "stepDefinitions.ALoginSteps2.user_is_on_login_page_1()"
+            },
+            "after": [
+              {
+                "result": {
+                  "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)\" because \"ts\" is null\r\n\tat stepDefinitions.ScreenShotStepDefinition.afterSite(ScreenShotStepDefinition.java:34)\r\n",
+                  "status": "failed"
+                },
+                "match": {
+                  "location": "stepDefinitions.ScreenShotStepDefinition.afterSite(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user enters User2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "User2",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.ALoginSteps2.user_enters_User1(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.ScreenShotStepDefinition.afterSite(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "clicks the login button",
+            "match": {
+              "location": "stepDefinitions.ALoginSteps2.clicks_on_login_button_1()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.ScreenShotStepDefinition.afterSite(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user is launched to the home page",
+            "match": {
+              "location": "stepDefinitions.ALoginSteps2.user_is_navigated_to_the_home_page_1()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.ScreenShotStepDefinition.afterSite(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AAA"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "First feature to test login functionality",
+    "description": "",
+    "id": "first-feature-to-test-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/login2.feature",
+    "tags": [
+      {
+        "name": "@AAA",
+        "type": "Tag",
+        "location": {
+          "line": 4,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
